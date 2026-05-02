@@ -17,13 +17,6 @@ We focus on the core challenges of production LLM systems:
 
 ## Projects
 
-### llm-critic-mcp
-Second pair of eyes for AI-generated outputs.  
-Challenges LLM reports and returns a structured verdict (confidence, issues, recommendations).
-
-→ https://github.com/datallmhub/llm-critic-mcp
-
----
 
 ### spring-agent-flow
 Stateful multi-agent runtime for Spring AI.  
