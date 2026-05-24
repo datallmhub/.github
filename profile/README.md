@@ -18,7 +18,7 @@ We focus on the core challenges of production LLM systems:
 ## Projects
 
 
-### agentfliw4j
+### agentflow4j
 Stateful multi-agent runtime for Spring AI.  
 Run long-lived workflows with retries, recovery, and graph execution.
 
