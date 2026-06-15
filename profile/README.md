@@ -1,62 +1,43 @@
 # DataLLMHub
 
-Building practical tools for real-world LLM systems.
-
----
-
-## What we build
-
-We focus on the core challenges of production LLM systems:
-
-- Reliability — detecting weak reasoning and hallucinations  
-- Orchestration — managing multi-step agent workflows  
-- RAG tooling — building and testing retrieval pipelines  
-- Cost & control — managing usage, access, and security  
+Building governed AI agent systems and production tooling for the JVM.
 
 ---
 
 ## Projects
 
-
 ### agentflow4j
-Stateful multi-agent runtime for Spring AI.  
-Run long-lived workflows with retries, recovery, and graph execution.
+Framework and runtime for governed, stateful multi-agent systems on the JVM.
+Human approvals · Checkpoints · Budget controls · Tool policies · Durable execution
 
 → https://github.com/datallmhub/agentflow4j
 
 ---
 
+### claude-governance
+Claude Code governance templates by tech stack.
+CLAUDE.md, scoped rules, cost control and dev-level adaptation.
+
+→ https://github.com/datallmhub/claude-governance
+
+---
+
+### agentflow4j-cookbook
+Six self-contained Java recipes for production AI agents.
+RAG, ticket triage, web research, Slack bot, batch processing, cost-aware routing.
+
+→ https://github.com/datallmhub/agentflow4j-cookbook
+
+---
+
 ### ragctl
-CLI tool to manage and optimize RAG pipelines.  
+CLI tool to manage and optimize RAG pipelines.
 Test, debug, and iterate on retrieval workflows directly from the terminal.
 
 → https://github.com/datallmhub/ragctl
 
 ---
 
-### TensorWall
-Control layer for LLM systems.  
-Manage cost, access, and security for production AI usage.
-
-→ https://github.com/datallmhub/TensorWall
-
----
-
-## Focus
-
-- AI reliability  
-- Agent systems  
-- Retrieval-Augmented Generation (RAG)  
-- Production-grade LLM tooling  
-
----
-
 ## Philosophy
 
 Simple tools, clear responsibilities, production-first design.
-
----
-
-## Status
-
-Early stage — feedback and contributions welcome.
