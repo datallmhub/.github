@@ -1,6 +1,6 @@
 # DataLLMHub
 
-Building governed AI agent systems and production tooling for the JVM.
+Open source tools and knowledge for building production AI systems.
 
 ---
 
